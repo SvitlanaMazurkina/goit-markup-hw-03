@@ -69,6 +69,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
   display: flex;
@@ -99,10 +100,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .header-menu-list {
   display: flex;
-  margin-left: 76px;
+
   gap: 40px;
 }
 
@@ -119,6 +121,7 @@ img {
   align-items: center;
 
   font-style: normal;
+  padding: 24px 0;
 }
 .header-menu-link:hover,
 .header-address-list-link:hover,
@@ -147,8 +150,7 @@ img {
 }
 .hero-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  padding-top: 188px;
-  padding-bottom: 292px;
+  padding: 188px 0;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -173,6 +175,10 @@ img {
   background-color: #4d5ae5;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
