@@ -114,8 +114,12 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
-
+.header-menu-item {
+  padding: 24px 0;
+}
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
@@ -123,7 +127,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: inline-block;
-  padding: 24px 0;
 }
 .header-address-list {
   display: flex;
