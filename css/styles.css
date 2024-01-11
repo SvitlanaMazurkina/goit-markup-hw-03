@@ -114,7 +114,6 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -124,6 +123,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: inline-block;
+  padding: 24px 0;
 }
 .header-address-list {
   display: flex;
