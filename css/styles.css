@@ -130,6 +130,7 @@ img {
   gap: 40px;
   align-items: center;
   font-style: normal;
+  padding: 24px 0;
 }
 .header-menu-link:hover,
 .header-address-list-link:hover,
