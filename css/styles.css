@@ -80,7 +80,6 @@ img {
 /*---------------------HEADER---------------------------*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -90,6 +89,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .header-logo {
   color: var(--IRIS, #4d5ae5);
