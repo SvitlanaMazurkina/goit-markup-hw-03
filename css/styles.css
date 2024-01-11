@@ -80,6 +80,7 @@ img {
 /*---------------------HEADER---------------------------*/
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -114,7 +115,6 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -130,7 +130,6 @@ img {
   gap: 40px;
   align-items: center;
   font-style: normal;
-  padding: 24px 0;
 }
 .header-menu-link:hover,
 .header-address-list-link:hover,
