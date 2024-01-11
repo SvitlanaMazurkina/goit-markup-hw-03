@@ -89,7 +89,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .header-logo {
   color: var(--IRIS, #4d5ae5);
@@ -115,6 +114,7 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-menu-link {
